@@ -41,7 +41,7 @@ def index(request):
     return render(request, 'hangman_app/index.html', {'message': message})
 
 def choose_word():
-    words = ["hangman", "python", "programming", "developer", "coding", "challenge"]
+    words = ["Shantanu", "Sanket", "Vicky", "pritam", "vaishnami"]
     return random.choice(words)
 
 def display_word(word, guessed_letters):

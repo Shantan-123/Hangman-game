@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
+   
 <head>
+    <link rel="stylesheet" href="style.css"></a>
     <title>Hangman Game</title>
 </head>
 <body>
-    <h1>Welcome to the Hangman!</h1>
-    <p>{{ Let's Start }}</p>
+    <h1>Welcome to the Guessing Game!</h1>
+    <p> Let's Start </p>
+
     <form method="post">
-        {% csrf_token %}
+        
         <label for="guess">Guess a Word:</label>
-        <input type="text" name="guess" maxlength="8" required>
+        <input type="text" name="guess" maxlength="10" required> 
+        <div>
         <button type="submit">Submit</button>
+    </div>
     </form>
 </body>
 </html>
