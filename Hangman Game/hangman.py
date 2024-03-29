@@ -1,6 +1,6 @@
 import django
 import render
-import django.http 
+import django.http
 import HttpResponse
 import random
 
