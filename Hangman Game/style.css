@@ -1,33 +1,41 @@
 body{
-    margin: 50px;
-    padding: 50px;
-    background-color: black;
-    background-image: url("image.jpg");
-    background-position: center;
+        width: auto;
+        height: auto;
+        margin: 50px;
+        padding: 50px;
+        background-color: black;
+        background-image: url("image.jpg");
+        background-position: center;
 
 }
 
 
-h1{
-    font-family: fantasy;
-    font-style: italic; 
-    font-size: 50px;
+h1{ 
+    
+    text-align: justify;
+    text-transform: capitalize;
+    font-family: 'papyrus',fantasy;
+    font-style: bold; 
+    font-size: 40px;
+    color: cornsilk;
     background-color: brown;
     background-position: center;
-    margin: 5px 150px 100px 250px;
-    padding: 10px 50px 10px 15px;
+    margin: 10px 230px 130px 200px;
+    padding: 20px 50px 10px 15px;
     border-bottom: 10px solid rgb(255, 68, 68);
     border-right: 10px solid rgb(255, 68, 68);
     border-left: 10px solid rgb(255, 68, 68);
 
 }
 
-p{
-    font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: xx-large;
+p{  
+    text-align: justify;
+    color: azure;
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #141414;
     border-bottom: 5px solid rgba(205, 30, 65, 0.439);
-    margin: -20px 400px 80px 320px;
+    margin: 10px 400px 80px 320px;
     padding: 5px 5px 0px 150px;
     background-color: crimson;
     
@@ -35,50 +43,64 @@ p{
 }
 
 label{
-    
-    background-color: tomato;
-    background-position: center;
-    border-left: 15px solid black ;
-    border-bottom: 15px solid black;
-    font-style: oblique;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: larger;
-    margin: 70px 5px 50px 250px;
-    padding: 10px 50px 10px 35px;
-
-}
-
-input{
-    border-left: 15px solid white;
-    border-bottom: 10px solid white;
-    background-position: center;
-    margin-left: 60px;
-    margin-top: 10px;
-    padding-left: 150px;
-    padding-top: 19px;
-}
-
-button{
+        text-align: justify;
+        background-color: tomato;
         background-position: center;
-        margin-left: -80px;
-        margin-right: 800px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 14px;
-        padding-bottom: 15px;
-        size-adjust: inherit;        
+        border-left: 15px solid black ;
+        border-bottom: 15px solid black;
+        font-style: oblique;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+        margin: 70px 5px 50px 250px;
+        padding: 10px 50px 10px 35px;
 
 }
 
-div {
+input{ 
+        border-left: 15px solid white;
+        border-bottom: 10px solid white;
+        background-position: center;
+        margin-left: 60px;
+        margin-top: 10px;
+        padding-left: 150px;
+        padding-top: 19px;
+}
+
+
+
+button {
+            transition-duration: 0.4ms;
+}
+button:hover {  
+            background-color: rgb(245, 242, 237);
+            color: black; 
+            outline-style: outset;
+            outline-width: 500px;
+            margin-top: 50px;
+            height: 50px;
+            margin-bottom: 30px;
+            margin-right: 700px;
+            margin-left: 480px;
+            padding-left: 90px;
+            padding-right: 60px;
+    }
+
+
+ @keyframes sample {
+            from{background-color: brown;}
+            to{background-color: black;}
+ }   
+div.box1 {
         
-        margin-top: 50px;
-        height: 50px;
-        margin-bottom: 50px;
-        margin-right: 550px;
-        margin-left: 500px;
-        padding-left: 100px;
-        padding-right: 50px;
-        background-color: wheat;
-        background-position: center;
+        margin: 50px;
+        padding: 50px;
+        width: 1000px;
+        height: 300px;
+        color: wheat;
+        background-color: aliceblue;
+        animation-name: sample;
+        animation-duration: 5s;
+
+
 }
+
