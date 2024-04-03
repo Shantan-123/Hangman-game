@@ -1,4 +1,5 @@
 import django
+import django.shortcuts
 import render
 import django.http
 import random

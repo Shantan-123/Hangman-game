@@ -1,15 +1,13 @@
+/* Thise style is for full boby */
 body{
         width: auto;
         height: auto;
         margin: 50px;
-        padding: 50px;
-        background-color: black;
-        background-image: url("image.jpg");
-        background-position: center;
-
+        padding: 30px;
+        background: #141414 url("image.jpg") repeat center;
 }
 
-
+/*Thise style is for Header */
 h1{ 
     
     text-align: justify;
@@ -20,34 +18,31 @@ h1{
     color: cornsilk;
     background-color: brown;
     background-position: center;
-    margin: 10px 230px 130px 200px;
+    margin: 10px 230px 25px 200px;
     padding: 20px 50px 10px 15px;
-    border-bottom: 10px solid rgb(255, 68, 68);
-    border-right: 10px solid rgb(255, 68, 68);
-    border-left: 10px solid rgb(255, 68, 68);
-
+    box-shadow: -5px 1px 50px 15px rgb(255, 68, 68);
 }
-
+/*Thise style is for paragraph */
 p{  
     text-align: justify;
     color: azure;
     font-family: "Sofia", sans-serif;
     font-size: 40px;
-    text-shadow: 3px 3px 3px #141414;
-    border-bottom: 5px solid rgba(205, 30, 65, 0.439);
-    margin: 10px 400px 80px 320px;
-    padding: 5px 5px 0px 150px;
-    background-color: crimson;
+    text-shadow: 5px 3px 3px #a9a6a6d5;
+    border-radius: 30px;
+    border-bottom: 5px outset rgba(229, 229, 229, 0.781);
+    margin: 2px 400px 10px 320px;
+    padding: 70px 5px 0px 150px;
     
 
 }
 
+/*Thise style is for Guess the word box*/
 label{
         text-align: justify;
         background-color: tomato;
         background-position: center;
-        border-left: 15px solid black ;
-        border-bottom: 15px solid black;
+        box-shadow: 5px 5px 8px 10px lightpink;
         font-style: oblique;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: larger;
@@ -56,9 +51,9 @@ label{
 
 }
 
+/*Thise style is for Input box*/
 input{ 
-        border-left: 15px solid white;
-        border-bottom: 10px solid white;
+        box-shadow:10px 10px #141414;
         background-position: center;
         margin-left: 60px;
         margin-top: 10px;
@@ -66,32 +61,41 @@ input{
         padding-top: 19px;
 }
 
+/*Thise style is for submit button*/
 button {   
-            
+            box-shadow: 6px 3px rgba(250, 250, 192, 0.776);
             margin-top: 50px;
             height: 50px;
             margin-bottom: 30px;
-            margin-right: 700px;
-            margin-left: 480px;
-            padding-left: 90px;
-            padding-right: 60px;
-        }
+            margin-right: 900px;
+            margin-left: 580px;
+            padding-left: 40px;
+            padding-right: 40px;
+}
 
-
-
+/*Thise style is for snake image*/        
+img{
+        width: 1000px;
+        height: 300px;
+        margin: 50px;
+        padding: 50px;
+        box-shadow: 10px 10px 10px 20px lightsteelblue; 
+        animation-name: sample;
+        animation-duration: 1s;
+        animation: both;
+}
+/*Add animation to snake image*/
  @keyframes sample {
-            from{background-color: brown;}
-            to{background-color: black;}
-        }   
-div.box1 {
-        
+            from{background-color: rgba(235, 130, 130, 0.754);}
+            to{background-color: rgb(188, 186, 186);}
+}   
+/*Thise style is for div containg image of snake*/
+div.box1.img {     
         margin: 50px;
         padding: 50px;
         width: 1000px;
-        height: 300px;
-        color: wheat;
-        background-color: aliceblue;
-        animation-name: sample;
-        animation-duration: 5s;
+        height: 300px; 
+              
 }
+
 
