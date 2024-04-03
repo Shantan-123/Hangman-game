@@ -66,16 +66,8 @@ input{
         padding-top: 19px;
 }
 
-
-
-button {
-            transition-duration: 0.4ms;
-}
-button:hover {  
-            background-color: rgb(245, 242, 237);
-            color: black; 
-            outline-style: outset;
-            outline-width: 500px;
+button {   
+            
             margin-top: 50px;
             height: 50px;
             margin-bottom: 30px;
@@ -83,13 +75,14 @@ button:hover {
             margin-left: 480px;
             padding-left: 90px;
             padding-right: 60px;
-    }
+        }
+
 
 
  @keyframes sample {
             from{background-color: brown;}
             to{background-color: black;}
- }   
+        }   
 div.box1 {
         
         margin: 50px;
@@ -100,7 +93,5 @@ div.box1 {
         background-color: aliceblue;
         animation-name: sample;
         animation-duration: 5s;
-
-
 }
 

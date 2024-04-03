@@ -1,7 +1,6 @@
 import django
 import render
 import django.http
-import HttpResponse
 import random
 
 def index(request):
